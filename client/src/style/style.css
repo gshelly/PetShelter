@@ -1,0 +1,126 @@
+#wrapper{
+  margin-left: 100px;
+  text-align: left;
+}
+
+/* .caption {
+  font-size: 17px;
+  color: purple;
+  font-weight: 600;
+  text-align: left;
+} */
+
+.contentInput {
+  height: 30px;
+  width: 200px;
+  border: 1px solid #b9b9b9;
+  margin-top: 3px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.submit {
+  background-image: url('../images/AddPet.png');
+  background-size: cover;
+  width: 180px;
+  height: 30px;
+  border: 2px black solid;
+  margin: 0px 2px;
+  display: block;
+  box-shadow: 2px 2px;
+}
+
+.edit {
+  background-image: url('../images/EditPet.png');
+  background-size: cover;
+  width: 180px;
+  height: 30px;
+  border: 2px black solid;
+  margin: 0px 2px;
+  display: block;
+  box-shadow: 2px 2px;
+}
+
+.adopt {
+  background: url('../images/Adopt.png') no-repeat left top/24px;
+  background-color: red;
+  width: 200px; 
+  height: 30px;
+  border: 2px black solid;
+  box-shadow: 2px 2px black;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+#like {
+  background: url('../images/Like.png') no-repeat left center/24px;
+  background-color: green;
+  width: 180px; 
+  height: 30px;
+  border: 2px black solid;
+  box-shadow: 2px 2px black;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+#result-table, th, td {
+  border: 2px solid black;
+}
+
+th {
+  height: 30px;
+  font-size: 18px;
+  background-color: #cccccc;
+  color: white;
+  padding: 0px 10px;
+  text-align: left;
+}
+#result-table tr:nth-of-type(2n+1) {background: white;}
+#result-table tr:nth-of-type(2n+2) {background: #eee;}
+
+td {
+  height: 30px;
+  text-align: left;
+  padding-left: 10px;
+  padding-right: 60px;
+}
+
+#result-table {
+  /* width: 300px; */
+  border-collapse: collapse;
+  /* margin: 10px auto; */
+  border-radius: 10px;
+}
+
+#product-details {
+  /* width: 300px; */
+  border-collapse: collapse;
+  border: 1px solid black;
+}
+
+#product-details td {
+ padding-right: 150px;
+}
+
+
+.edit-delete {
+  text-decoration: underline;
+  border: none;
+  background-color: transparent;
+  color: #135494;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+#form-container {
+  text-align: left;
+  margin-left: 100px;
+}
+
+.error-style {
+  color: red;
+  margin-top: 0px
+}
